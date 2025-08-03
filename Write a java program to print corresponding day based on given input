@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int n;
+        Scanner sc = new Scanner(System.in);
+        n=sc.nextInt();
+        String[] days = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+        if(n<7 && n>=0){
+        System.out.println(days[n]);
+        }else{
+            System.out.println("Invalid");
+        }
+    }
+}
